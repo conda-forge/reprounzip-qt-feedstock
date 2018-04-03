@@ -1,7 +1,6 @@
 {% set name = "reprounzip-qt" %}
-{% set version = "1.0.11" %}
-{% set postversion = "-1" %}
-{% set sha256 = "6738edae930aa8e447ec1c6e1fb0341bbe84ca94ed7e54e14c2abbb3b21af563" %}
+{% set version = "1.0.12" %}
+{% set sha256 = "2c25adcdcf52d6e7575ff1e740a666f750552807bb8aef3c6d1693c918d9f80b" %}
 
 package:
   name: {{ name|lower }}
@@ -9,7 +8,7 @@ package:
 
 source:
   fn: {{ name }}-{{ version }}.tar.gz
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}{{ postversion }}.tar.gz
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:

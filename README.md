@@ -21,14 +21,16 @@ environment to reproduce the results (unpacking step).
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/reprounzip-qt-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/reprounzip-qt-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/reprounzip-qt-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/reprounzip-qt-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/reprounzip-qt-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/reprounzip-qt-feedstock/branch/master)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/data-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/data-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/data-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/data-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/data-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/data-feedstock/branch/master)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/reprounzip-qt/badges/version.svg)](https://anaconda.org/conda-forge/reprounzip-qt)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/reprounzip-qt/badges/downloads.svg)](https://anaconda.org/conda-forge/reprounzip-qt)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-reprounzip--qt-green.svg)](https://anaconda.org/conda-forge/reprounzip-qt) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/reprounzip-qt.svg)](https://anaconda.org/conda-forge/reprounzip-qt) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/reprounzip-qt.svg)](https://anaconda.org/conda-forge/reprounzip-qt) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/reprounzip-qt.svg)](https://anaconda.org/conda-forge/reprounzip-qt) |
 
 Installing reprounzip-qt
 ========================

@@ -21,9 +21,9 @@ environment to reproduce the results (unpacking step).
 Current build status
 ====================
 
-[![Linux](https://img.shields.io/circleci/project/github/conda-forge/data-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/data-feedstock)
-[![OSX](https://img.shields.io/travis/conda-forge/data-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/data-feedstock)
-[![Windows](https://img.shields.io/appveyor/ci/conda-forge/data-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/data-feedstock/branch/master)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/reprounzip-qt-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/reprounzip-qt-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/reprounzip-qt-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/reprounzip-qt-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/reprounzip-qt-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/reprounzip-qt-feedstock/branch/master)
 
 Current release info
 ====================

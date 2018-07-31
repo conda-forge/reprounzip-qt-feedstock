@@ -1,6 +1,6 @@
 {% set name = "reprounzip-qt" %}
-{% set version = "1.0.13" %}
-{% set sha256 = "ac59340748154cd2f34279305b540eff5157f028e3bda4e44ee5c2aa722fa6f9" %}
+{% set version = "1.0.14" %}
+{% set sha256 = "32e51ef8e416462f5a13004ff5d5efc6c1e806673c37e2df6a61e47d4f1ddfec" %}
 
 package:
   name: {{ name|lower }}
@@ -13,7 +13,7 @@ source:
 
 build:
   noarch: python
-  number: 2
+  number: 0
   script: python -m pip install --no-deps --ignore-installed .
 
 requirements:

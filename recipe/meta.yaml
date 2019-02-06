@@ -1,6 +1,6 @@
 {% set name = "reprounzip-qt" %}
-{% set version = "1.0.15" %}
-{% set sha256 = "706c323c5dd72feaf885a26f8d179444f9790dc39c762bb01c89228009b076cc" %}
+{% set version = "1.0.16" %}
+{% set sha256 = "f049ba0a9cfde8522df63d87729b3f9cc8d628116b4a787967eebf171f59c29d" %}
 
 package:
   name: {{ name|lower }}

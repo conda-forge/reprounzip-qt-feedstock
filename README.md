@@ -1,7 +1,3 @@
-<!--
-# -*- mode: jinja -*-
--->
-
 About reprounzip-qt
 ===================
 
@@ -25,8 +21,17 @@ environment to reproduce the results (unpacking step).
 Current build status
 ====================
 
-All platforms:
-[![noarch](https://img.shields.io/circleci/project/github/conda-forge/reprounzip-qt-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/reprounzip-qt-feedstock)
+
+<table><tr>
+    
+    <td>All platforms:</td>
+    <td>
+      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=3518&branchName=master">
+        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/reprounzip-qt-feedstock?branchName=master">
+      </a>
+    </td>
+  </tr>
+</table>
 
 Current release info
 ====================

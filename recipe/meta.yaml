@@ -1,6 +1,6 @@
 {% set name = "reprounzip-qt" %}
-{% set version = "1.0.16" %}
-{% set sha256 = "f049ba0a9cfde8522df63d87729b3f9cc8d628116b4a787967eebf171f59c29d" %}
+{% set version = "1.1" %}
+{% set sha256 = "c356851d718ee4256dd3153480359fdd878aecb1705dc1cc5882effe87dcc415" %}
 
 package:
   name: {{ name|lower }}
@@ -13,7 +13,7 @@ source:
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: python -m pip install --no-deps --ignore-installed .
 
 requirements:
@@ -25,8 +25,8 @@ requirements:
     - python
     - setuptools
     - pyyaml
-    - pyqt <5
-    - reprounzip
+    - pyqt >=4,<6
+    - reprounzip >=1.1
 
 test:
   imports:
@@ -36,7 +36,7 @@ test:
     - reprounzip-qt --help
 
 about:
-  home: http://github.com/ViDA-NYU/reprozip
+  home: http://github.com/VIDA-NYU/reprozip
   license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE.txt
@@ -50,7 +50,7 @@ about:
     (packing step). A reviewer can then extract the experiment in his
     environment to reproduce the results (unpacking step).
   doc_url: https://docs.reprozip.org/
-  dev_url: https://github.com/ViDA-NYU/reprozip
+  dev_url: https://github.com/VIDA-NYU/reprozip
 
 extra:
   recipe-maintainers:

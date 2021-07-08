@@ -14,7 +14,7 @@ source:
 build:
   noarch: python
   number: 0
-  script: python -m pip install --no-deps --ignore-installed .
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
@@ -40,7 +40,7 @@ about:
   license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE.txt
-  summary: 'Graphical user interface for reprounzip, using Qt'
+  summary: Graphical user interface for reprounzip, using Qt
   description: |
     ReproZip is a tool aimed at simplifying the process of creating reproducible
     experiments from command-line executions, a frequently-used common
